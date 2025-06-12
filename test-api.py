@@ -29,3 +29,12 @@ cookie_url = "https://country-leaders.onrender.com/cookie"
 req = requests.get(cookie_url)
 cookies = req.cookies
 print(cookies)
+
+#  1d data from api
+
+leaders_url = "https://country-leaders.onrender.com/leaders"
+
+req = requests.get(leaders_url)
+leaders = req.json()
+print(leaders)
+print(leaders)
